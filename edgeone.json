@@ -1,0 +1,19 @@
+{
+  "caches": [
+    {
+      "source": "/random.jpg",
+      "cacheTtl": 0
+    }
+  ],
+  "headers": [
+    {
+      "source": "/random.jpg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ]
+}
